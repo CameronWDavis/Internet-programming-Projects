@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <script src="dist/script.js"></script> 
+        <link rel="stylesheet" href="style.css"> 
+    <title>All in one Soap!</title>
+</header>
+<body>
+    <div class="container">
+    <div id="picture1">
+    <img src="img/soap.jpg" alt="soap picture"> 
+    </div>
+    <div id="opener">
+    <h1 id="intro" >The all in one Purple Soap Bar!</h1>
+    <p >
+        The purple soap bar is designed for all purpose use from dirty floors, clothes,
+        and humans this bar can clean anything!
+    </p>
+
+    <p>
+        This bar is designed for a few reasons with efficentcy in mind!
+        Purple soap uses the most effective Chemicals to remove grime and dirt from you and your clothes!!!
+    </p>
+    <h4>Reasons to use Purple Soap</h4>
+    <ol>
+        <li>The all in one package purple soap is designed for peak efficentcy</li>
+        <li>Who doesnt like purple items!</li>
+        <li>Industrial Cleaners should be for everyone!!</li>
+    </ol>
+    <p><l1>Read the reviews below and you will see how purple has changed the world and the soap industry forever!!! Or tell us about your expirence!</l1></p>
+    <h2>Write a Review</h2>
+    <form  name="myForm" onSubmit="return main();" method="post">
+    <table>
+        <tr>
+    <td><label for="name">Name</label></td>
+    <td><input type="text" id="name" class="inputbtn" required></td>
+        </tr>
+        <tr>
+    <td><label for="Rating">Rating</label></td>
+    <td><input type="text" id="Rating" min=0 max =5 class="inputbtn" required></td>
+        </tr>
+        <tr>
+    <td><label for="review">Comments</label></td> 
+    <td><input id="review" name="review"  class="inputbtn"  rows="4" cols="20"></td>
+        </tr> 
+   </table>
+    <input type="submit" id="rev-btn" value="Post Review!" >
+    <div class="avg">
+        <span id="avg_rating">
+                No reviews as of now.
+        </span>
+    </div>
+    </form>
+    <div id="commentHere">
+    
+    </div>
+</div>
+
+</div>
+
+
+</body>
+</html>

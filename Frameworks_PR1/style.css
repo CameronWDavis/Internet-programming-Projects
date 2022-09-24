@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    align-items: top;
+}
+html{
+    background-color: rgb(216, 212, 212);
+    font-family: sans-serif;
+}
+#commentHere{
+  width: 250px;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  
+}
+
+.inputbtn{
+  border-radius: 25px;
+  border: 4px solid rgb(170, 32, 124);
+  width: 200px;
+  height: 50px;
+}
+ .star_rating{
+    font-size:30px;
+ }
+
+#picture1{
+   mix-blend-mode: darken;
+}
+
+#intro{
+    color: rgb(224, 101, 224);
+}
+
+#rev-btn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(170, 32, 124);
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+#rev-btn:hover{
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+  }
+
+  .review{
+    height: 100px;
+    width: 200px;
+
+  }
+
+  .avg{
+    font-size: large;
+    padding: auto;
+  }
