@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eng">
+    
+<meta charset="UTF-8">
+<title>Statistical Calculator Page</title>
+<header>
+    <h2>Statistical Calculator </h2>
+</header>
+    <form  name="calcForm" onSubmit="return performStatistics();" method="get">
+        <script src="script.js"></script>
+    <p>
+    <label for="input-area">Please input a list of numbers to run calculatons.</label>
+    </p>
+    <textarea id="input-area" name="input-area" rows="5" cols="50">
+    </textarea>
+    <p><input type="submit" value="Submit"> <input type="reset" value="Reset"> </p>
+
+    <table>
+        <tr>
+        <td><label for="max">Max</label></td>
+        <td><input type="text" id="max"></td>
+    </tr>
+    <tr>
+        <td><label for="minimum">Min</label></td> 
+         <td><input type="text" id="minimum"></td>
+    </tr>
+
+    <tr>
+         <td><label for="sum">Sum</label></td> 
+         <td><input type="text" id="sum"></td>
+     </tr>
+
+     <tr>
+        <td><label for="mean">Mean</label></td> 
+        <td><input type="text" id="mean"></td>
+     </tr>
+     <tr>
+        <td><label for="median">Median</label></td> 
+         <td><input type="text" id="median"></td>
+     </tr>
+     <tr>
+        <td><label for="variance">Variance</label></td> 
+         <td><input type="text" id="variance"></td>
+     </tr>
+     <tr>
+        <td><label for="stdDev">Standard Deviation</label></td> 
+        <td><input type="text" id="stdDev"></td>
+     </tr>
+
+    </table>
+   
+</form>
+
+</html>
