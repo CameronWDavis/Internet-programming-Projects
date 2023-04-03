@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <title>Create An Account</title>
+    <link rel="stylesheet"  href="../css/mySite.css">
+    <body>
+    <form action="https://unfinishedbusiness.app/alert.php" method="post"> 
+    <table>
+        <tr>
+            <td><label for="first">First Name</label></td>
+           <td><input type="text" id="first" name="first" placeholder=""></td>
+        </tr>
+
+        <tr>
+            <td><label for="last">Last Name</label></td>
+            <td><input type="text" id="last" name="last" placeholder=""></td>
+        </tr>
+       
+            <tr>
+            <td><label for="email">Email Address</label></td>
+            <td><input type="text" id="email" name="email" placeholder=""></td>
+        </tr>
+
+        <tr>
+            <td><label for="passwd">Password</label></td>
+            <td><input type="password" id="passwd" name="passwd" placeholder=""></td>
+        </tr>
+
+        <tr>
+            <td><label for="passwd1">Confirm Password</label></td>
+           <td> <input type="password" id="passwd1" name="passwd1" placeholder=""></td>
+        </tr>
+
+        <tr>
+            <td><label for="birth">Birth Date</label></td>
+            <td><input type="date" min="1970-01-01" max="2025-12-31" value="2015-10-21" ></td>
+        </tr>
+        </table>
+
+        <h2>Computing Major</h2>
+        <div>
+        <label class="labeler"><a href="https://www.unf.edu/catalog/link/CCEC-BSCCSC/" target="_blank">Computer Science</a>
+            <input type="radio" name="degrees" value="Computer Science">
+            <span class="radbutton"></span>
+          </label>
+          
+          <label class="labeler"><a href="https://www.unf.edu/catalog/link/CCEC-BSCISI/" target="_blank">Information Science</a>
+            <input type="radio" name="degrees" value="Information Science">
+            <span class="radbutton"></span>
+          </label>
+          
+          <label class="labeler"><a href="https://www.unf.edu/catalog/link/CCEC-BSCISY/" target="_blank">Information Systems</a>
+            <input type="radio" name="degrees" value="Information Systems">
+            <span class="radbutton"></span>
+          </label>
+          
+          <label class="labeler"><a  href="https://www.unf.edu/catalog/link/CCEC-BSCITC/" target="_blank">Information Technology</a>
+            <input type="radio" name="degrees" value="Information Technology">
+            <span class="radbutton"></span>
+          </label> 
+        </div>
+        <h2>Programming language expirence</h2>
+        <table>
+        <tr>
+        <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a>
+            <input type="checkbox" name="language1" value="C" >
+            <span class="check"></span>
+          </label></td> 
+          <td> &nbsp</td>
+          <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a>
+            <input type="checkbox" name="language2" value="PHP">
+            <span class="check"></span>
+          </label></td> 
+
+        </tr>
+
+
+        <tr>
+          <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C#</a>
+            <input type="checkbox"  name="language3" value="C#">
+            <span class="check"></span>
+          </label></td>
+          <td> &nbsp</td>
+            <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>
+              <input type="checkbox" name="language4" value="Python">
+              <span class="check"></span>
+            </label></td>
+          </tr>
+
+          <tr>
+          <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a>
+            <input type="checkbox"  name="language5" value="Java">
+            <span class="check"></span>
+          </label></td>
+          <td> &nbsp</td>
+          <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/Visual_Basic_(classic)" target="_blank">Visual Basic</a>
+            <input type="checkbox"   name="language6" value="Visual Basic">
+            <span class="check"></span>
+          </label></td>
+          
+          </tr>
+          
+          <tr>
+          <td><label class="labeler1"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+            <input type="checkbox"   name="language7" value="JavaScript">
+            <span class="check"></span>
+          </label></td>
+          <td> &nbsp</td>
+          <td><label class="labeler1">Other
+            <input type="checkbox" name="language8" value="Other">
+            <span class="check"></span>
+          </label></td>
+
+          </tr>
+
+        </table>
+
+        <p><input type="submit" value="Submit"> <input type="reset" value="Reset"> </p>
+
+        <input type="hidden" name="username" value="976583868" />
+        <input type="hidden" name="to_email_address" value="n01368602@unf.edu" />
+        <input type="hidden" name="to_display_name" value="Cameron" />
+    </form>
+    </body> 
+    <p><a href="index.html">Home Page</a> <a href="http://139.62.210.181/~dc462942/">Portfolio Page</a></p>
+</html>
